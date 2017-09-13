@@ -1,7 +1,9 @@
 # XHPictureBrowser
 
 组成部分：
+
   一、四个属性
+  
     1、touchImgView：点中的图片视图
     
     2、touchIndex：点中的图片视图(touchImgView)在图片视图数组(imageViews)中的下标(必须一致)。当touchImageView或imageViews为空时，或者imageViews的count小于imageUrls的count时，会根据此参数确定默认选中的图片视图。
@@ -56,10 +58,10 @@
 
     XHPictureBrowser *browser = [[XHPictureBrowser alloc]init];
     
-    browser.touchImgView = cell.imgView;      //点中的单元格的图片视图
+    browser.touchImgView = cell.imgView;      //点中的单元格的图片视图
     
-    browser.touchIndex = index;               //点中的单元格的图片视图在整个tableView的所有含有图片视图的单元格数组中的index
-    
+    browser.touchIndex = index;               //点中的单元格的图片视图在整个tableView的所有含有图片视图的单元格数组中的位置
+    序号
     browser.imageViews = imageViews;          //tableView中Visible中的含有图片视图的单元格的图片视图数组
     
     browser.imageUrls = _imageUrls;           //tableView的DataSource中图片类型model中的imageUrl组成的数组
