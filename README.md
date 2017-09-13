@@ -60,8 +60,7 @@
     
     browser.touchImgView = cell.imgView;      //点中的单元格的图片视图
     
-    browser.touchIndex = index;               //点中的单元格的图片视图在整个tableView的所有含有图片视图的单元格数组中的位置
-    序号
+    browser.touchIndex = index;               //点中的单元格的图片视图在整个tableView的所有含有图片视图的单元格数组中的位置序号
     
     browser.imageViews = imageViews;          //tableView中Visible中的含有图片视图的单元格的图片视图数组
     
