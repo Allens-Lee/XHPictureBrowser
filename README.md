@@ -39,3 +39,4 @@
     browser.imageUrls = @[@"http://f.hiphotos.baidu.com/image/pic/item/a71ea8d3fd1f41348a8ca392211f95cad0c85ea6.jpg"];
     [browser showPushBy:self];
 		
+    
