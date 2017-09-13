@@ -82,8 +82,13 @@
 使用用例：
 
     XHPictureBannerView *bannerView = [[XHPictureBannerView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.width / 16 * 9)];
+    
     bannerView.imageUrls = @[@"http://f.hiphotos.baidu.com/image/pic/item/a71ea8d3fd1f41348a8ca392211f95cad0c85ea6.jpg"];
+    
     bannerView.didSelectedCallBack = ^(NSInteger index) {
+    
         NSLog(@">>>>>>>>>>>>>>>>%li",index);
+	
     };
+    
     _tableView.tableHeaderView = bannerView;
