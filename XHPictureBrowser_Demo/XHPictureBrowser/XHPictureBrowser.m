@@ -143,7 +143,7 @@ CGFloat const transitions_duration = 0.35f;                 ///转场的动画�
     UIImageView *tempView = [[UIImageView alloc] init];
     tempView.frame = rect;
     tempView.image = self.touchImgView.image;
-    tempView.contentMode = UIViewContentModeScaleAspectFit;
+    tempView.contentMode = self.touchImgView.contentMode;
     [self.view addSubview:tempView];
     
     CGRect newRect;
