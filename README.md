@@ -1,6 +1,7 @@
 # XHPictureBrowser
 
-![我的头像](https://www.zybuluo.com/static/img/my_head.jpg)
+
+https://www.zybuluo.com/static/img/my_head.jpg
 
 组成部分：
 
