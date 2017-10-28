@@ -1,5 +1,7 @@
 # XHPictureBrowser
 
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
+
 组成部分：
 
   一、四个属性
