@@ -1,6 +1,6 @@
 # XHPictureBrowser
 
-[我的头像](https://www.zybuluo.com/static/img/my_head.jpg)
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
 
 组成部分：
 
